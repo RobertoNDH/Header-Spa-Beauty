@@ -6,10 +6,15 @@
 
 body {
   font-family: poppins, sans-serif;
-  padding: 20px;
+  padding: 1.2em;
   color: #264065;
-  margin: 20px 175px;
-  background-color: #FAF8F5;
+  margin: 1.2em 11em;
+  background-image: url(../img/testimony.png), url(../img/beauty-woman-skin-care-beautiful-female-hand-touch-8B5MWG9\ 1.png),url(../img/spa.svg),linear-gradient(to right, #FAF8F5 70%, #A9D6CB 30%);
+  background-size: 24%, 75%, 28%, 100% 75%;
+  background-position: 95% 85%, right, 88% 8%, top;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  opacity: 0 0.5;
 }
 
 header nav ul {
@@ -47,6 +52,10 @@ header nav ul {
         background-color: #264065;
         padding: 1em 2.2em;
         border-radius: 50px;
+    }
+
+    li:last-child a:hover {
+        background-color: red;
     }
 
     li:nth-child(9) {
@@ -87,6 +96,10 @@ header nav ul {
         border-radius: 50px;
     }
 
+    a:first-child:hover {
+        background-color: red;
+    }
+
     img {
         margin-top: 2em;
     }
@@ -101,6 +114,7 @@ header nav ul {
     width: 30%;
     text-align: center;
     margin-left: 2em;
+    margin-top: 30px;
 
     img {
         margin-bottom: 1.5em;
@@ -111,7 +125,11 @@ header nav ul {
         font-size: 2.2em;
         font-weight: 600;
     }
-}    
+}
+
+a:hover {
+    color: red;
+}
 
 
 
